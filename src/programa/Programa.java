@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class Programa {
        
     public static void main(String[] args) throws SQLException {
-        Clientes cli = new Clientes();
-        cli.setVisible(true);       
+        Menu men = new Menu();
+        men.setVisible(true);       
     }    
 }
